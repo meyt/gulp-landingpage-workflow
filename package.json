@@ -1,0 +1,36 @@
+{
+  "name": "gulp-landingpage-workflow",
+  "version": "1.0.0",
+  "homepage": "https://github.com/meyt/gulp-landingpage-workflow",
+  "license": "MIT",
+  "author": "Mahdi Ghane.g",
+  "description": "a gulp workflow for building landing-page.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "decache": "^4.3.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-css-copy-assets": "0.0.4",
+    "gulp-file-include": "^1.2.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-web-dependencies": "^1.1.2",
+    "run-sequence": "^2.2.0"
+  }
+}
